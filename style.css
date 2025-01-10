@@ -2,8 +2,8 @@ body {
     font-family: 'Montserrat', sans-serif;
     margin: 0;
     padding: 0;
-    background-color: #333; /* Темный фон */
-    color: #fff; /* Светлый текст */
+    background-color: #333;
+    color: #fff;
     line-height: 1.6;
 }
 .container {
@@ -14,7 +14,7 @@ body {
 }
 
 header {
-    background-color: #1f2a35;  /* Темный фон хедера*/
+    background-color: #1f2a35;
     color: white;
     padding: 20px 0;
 }
@@ -39,11 +39,11 @@ section {
 }
 
 #projects {
-   background-color: #444; /* Фон секции проектов */
+   background-color: #444;
 
 }
 
-#projects h2, #contact h2{
+#projects h2, #contact h2 , #private-content-section h2{
     text-align: center;
     margin-bottom: 30px;
     color: white;
@@ -55,7 +55,7 @@ section {
 }
 
 .project-card {
-    background-color: #555; /* Темный фон карточки */
+    background-color: #555;
     border-radius: 8px;
     box-shadow: 0 2px 4px rgba(0,0,0,0.1);
     padding: 15px;
@@ -72,7 +72,37 @@ section {
     transform: translateY(-5px);
 }
 #contact {
-     background-color: #444;  /* Фон секции контактов */
+     background-color: #444;
+}
+#private-content-section{
+     background-color: #444;
+}
+
+#promo-form-container {
+    display: flex;
+    flex-direction: column;
+    max-width: 300px;
+    margin: 0 auto;
+    gap: 10px;
+}
+#promo-form-container input {
+    padding: 10px;
+    background-color: #555;
+    color: white;
+     border: 1px solid #666;
+}
+
+#promo-form-container button {
+  padding: 10px 20px;
+  border: none;
+  border-radius: 4px;
+  background-color: #1f2a35;
+  color: white;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+#promo-form-container button:hover {
+   background-color: #34495e;
 }
 
 .contact-form {
@@ -92,7 +122,7 @@ section {
 .form-group input, .form-group textarea {
     width: 100%;
     padding: 10px;
-    border: 1px solid #666;  /* Темный цвет бордера*/
+    border: 1px solid #666;
     border-radius: 4px;
     box-sizing: border-box;
      background-color: #555;
