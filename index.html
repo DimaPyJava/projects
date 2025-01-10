@@ -9,7 +9,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;600;700&display=swap" rel="stylesheet">
 </head>
-<body>
+<body class="dark-mode">
     <header>
         <div class="container">
             <div class="logo">
@@ -32,7 +32,7 @@
                     <h3>Проект 1</h3>
                     <p>Краткое описание проекта 1.</p>
                 </div>
-                 <div class="project-card">
+                <div class="project-card">
                     <img src="" alt="Проект 2">
                     <h3>Проект 2</h3>
                     <p>Краткое описание проекта 2.</p>
@@ -50,11 +50,26 @@
             </div>
         </div>
     </section>
+       <section id="private-content-section">
+         <div class="container">
+            <h2>Приватный контент</h2>
+             <div id="promo-form-container">
+               <input type="text" id="promo-input" placeholder="Введите промокод">
+                 <button id="promo-submit">Отправить</button>
+                 <p id="error-message" style="color: red; display: none;">Неверный промокод!</p>
+            </div>
+             <div id="private-content" style="display: none">
+                  <h3>Ваш Приватный Контент</h3>
+                  <p>Здесь будет какой-то приватный контент, например, файлы для скачивания или эксклюзивные материалы.</p>
+             </div>
+        </div>
+      </section>
+
 
     <section id="contact">
         <div class="container">
             <h2>Свяжитесь со мной</h2>
-             <form class="contact-form">
+            <form class="contact-form">
                 <div class="form-group">
                   <label for="name">Имя:</label>
                     <input type="text" id="name" name="name">
